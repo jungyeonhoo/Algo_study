@@ -4,7 +4,7 @@ b = [0] * len(l)
 c = 0
 k = list(map(int,input().split()))
 for i in range(len(l)):
-    l[i] = k
+    l[i] = k[i]
     
 for x in range(len(l)):
     b[x] = l[x] / max(l) * 100
